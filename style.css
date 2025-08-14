@@ -52,7 +52,7 @@
     justify-content: center;
     
     color: white;
-    background-image: url('./images/showcase3.jpg');
+    background-image: url('./images/showcase3.png');
     background-size: cover; /* redimensiona a imagem */
     background-position: center;
 
@@ -83,6 +83,11 @@
 }
 
 /* SOBRE MIM */
+
+.img-avatar{
+     border-radius: 90%;
+ 
+}
 
 .about-me-content{
     display: flex;
