@@ -126,6 +126,13 @@
     align-items: center;
 }
 
+.item-invertido{
+    justify-content: end; 
+    flex-direction: row-reverse; 
+    text-align: right; 
+    
+}
+
 .skills-content .skill-item:nth-child(2){
     margin-left: 50px;
     margin-right: 50px;
@@ -144,6 +151,78 @@
     opacity: 75%;
 }
 
+/* PROJETOS */
+
+.projects-content{
+    margin-top: 118px;
+}
+
+.project-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+
+.project-item-image{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.project-item-1{
+    background-image:  url('./images/project-1.png'); 
+}
+
+.project-text{
+    margin-left: 50px;  
+    margin-right: 50px;  
+    max-width: 500px;
+}
+
+.project-text p{ 
+    color: white;
+    opacity: 75%;
+    line-height:29px;
+}
+
+.project-text h3{ 
+    color: white;
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+
+
+
+.project-links{
+    margin-top: 5px;
+    
+}
+
+
+.project-links a{
+     color: white;
+    letter-spacing: 0.1rem;
+    opacity: 50%;
+    transition: opacity 0.5s;
+     text-transform: uppercase;
+     background-color: #2e2e2e;
+     border-radius: 5px;
+     text-decoration: none;
+     padding: 2px 5px;
+     
+     
+}
+
+.project-links a:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
 
 
 /* Utilities */
