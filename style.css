@@ -179,6 +179,10 @@
     background-image:  url('./images/project-1.png'); 
 }
 
+.project-item-2{
+    background-image:  url('./images/landing-page-1.png'); 
+}
+
 .project-text{
     margin-left: 50px;  
     margin-right: 50px;  
