@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Portfólio</title>
+     
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./mobile.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,10 +13,9 @@
 
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-     <script
-      src="https://kit.fontawesome.com/b3f89f3272.js"
-      crossorigin="anonymous"
-    ></script>
+    
+      
+  
   </head>
 
   <body>
@@ -59,31 +59,66 @@
 
     <!--   HABILIDADES  -->
 
-    <div class="section-container">
-      <div class="section-content">
-        <h2 class="section-title">Habilidades</h2>
+   <div class="section-container">
+  <div class="section-content">
+    <h2 class="section-title">Habilidades</h2>
 
-        <div class="skills-content">
-          <div class="skill-item">
-            <img src="./images/js-icon.png" alt="JAVASCRIPT" />
-            <span>JAVASCRIPT</span>
-            <p>linguagem que tenho tal dominio e pratico a mts amos</p>
-          </div>
+    <div class="skills-content carousel" id="skillsCarousel">
 
-          <div class="skill-item">
-            <img src="./images/ts-icon.png" alt="TYPESCRIPT" />
-            <span>TYPESCRIPT</span>
-            <p>linguagem que tenho tal dominio e pratico a mts amos</p>
-          </div>
 
-          <div class="skill-item">
-            <img src="./images/react-icon.png" alt="#" />
-            <span>REACT</span>
-            <p>linguagem que tenho tal dominio e pratico a mts amos</p>
-          </div>
+      <div class="carousel-track">
+
+
+        <div class="skill-item">
+          <img src="./images/js-icon.png" alt="JAVASCRIPT" />
+          <span>JAVASCRIPT</span>
+          <p>linguagem que tenho tal dominio e pratico a mts anos</p>
         </div>
+
+        <div class="skill-item">
+          <img src="./images/ts-icon.png" alt="TYPESCRIPT" />
+          <span>TYPESCRIPT</span>
+          <p>linguagem que tenho tal dominio e pratico a mts anos</p>
+        </div>
+
+        <div class="skill-item">
+          <img src="./images/react-icon.png" alt="REACT" />
+          <span>REACT</span>
+          <p>linguagem que tenho tal dominio e pratico a mts anos</p>
+        </div>
+
+          <div class="skill-item">
+          <img src="./images/node-icon.png" alt="node" />
+          <span>Node</span>
+          <p>linguagem que tenho tal dominio e pratico a mts anos</p>
+        </div>
+
+          <div class="skill-item">
+          <img src="./images/ts-icon.png" alt="TYPESCRIPT" />
+          <span>TYPESCRIPT</span>
+          <p>linguagem que tenho tal dominio e pratico a mts anos</p>
+        </div>
+
+        <div class="skill-item">
+          <img src="./images/tailwind-icon.png" alt="Tailwind" />
+          <span>Tailwind</span>
+          <p>linguagem que tenho tal dominio e pratico a mts anos</p>
+        </div>
+
+        <div class="skill-item">
+          <img src="./images/sass-icon.png" alt="SASS" />
+          <span>Sass</span>
+          <p>linguagem que tenho tal dominio e pratico a mts anos</p>
+        </div>
+
       </div>
+
+      <!-- botões -->
+      <button class="btn btn-prev" aria-label="Anterior">‹</button>
+      <button class="btn btn-next" aria-label="Próximo">›</button>
     </div>
+  </div>
+</div>
 
     <!--   PROJETOS  -->
 
@@ -218,5 +253,7 @@
         </div>
         <p>Copyright 2025</p>
     </div>
+
+    <script src="script.js"></script> 
   </body>
 </html>
