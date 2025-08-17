@@ -1,5 +1,3 @@
-src="https://kit.fontawesome.com/b3f89f3272.js"
-      crossorigin="anonymous"
 
 
 
