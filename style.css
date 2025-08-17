@@ -5,6 +5,11 @@
     font-family: "poppins", sans-serif;
 }
 
+html, body {
+  overflow-x: hidden; /* impede scroll horizontal */
+  width: 100vw;       /* largura da viewport */
+}
+
 a {
   color: white;
   text-decoration: none;
