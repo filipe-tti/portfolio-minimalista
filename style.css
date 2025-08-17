@@ -189,11 +189,15 @@ a {
 
 
 .project-item-1{
-    background-image:  url('./images/project-1.png'); 
+    background-image:  url('./images/ecomerce.jpg'); 
 }
 
 .project-item-2{
-    background-image:  url('./images/landing-page-1.png'); 
+    background-image:  url('./images/landing-page.jpg'); 
+}
+
+.project-item-3{
+    background-image:  url('./images/task-manager.jpg'); 
 }
 
 .project-text{
