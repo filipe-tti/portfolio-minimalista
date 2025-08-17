@@ -58,6 +58,14 @@
     font-size: 0.875rem;
   }
 
+  
+.btn-prev, .btn-next {
+  width: 40px;       /* largura do botão */
+  height: 40px;      /* altura do botão */
+  font-size: 22px;   /* tamanho do texto ou ícone */
+  padding: 10px;     /* espaço interno */
+}
+
   /* Projetos */
   .projects-content {
     margin-top: 40px;
