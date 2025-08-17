@@ -127,6 +127,8 @@ a {
     justify-content: space-between;
 }
 
+
+
 .skill-item {
   min-width: 100%;
   height: 400px;           /* altura fixa para todos */
@@ -167,6 +169,10 @@ a {
 /* PROJETOS */
 
 .projects-content{
+    margin-top: 118px;
+}
+
+#skillsCarousel{
     margin-top: 118px;
 }
 
@@ -347,7 +353,7 @@ a {
 
 .carousel {
   position: relative;
-  max-width: 80%;
+  max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
   border-radius: 10px;
@@ -395,6 +401,12 @@ a {
 .btn-prev { left: 10px; }
 .btn-next { right: 10px; }
 
+.btn-prev, .btn-next {
+  width: 80px;       /* largura do botão */
+  height: 80px;      /* altura do botão */
+  font-size: 40px;   /* tamanho do texto ou ícone */
+  padding: 10px;     /* espaço interno */
+}
 
 .footer-container {
   width: 100%;
