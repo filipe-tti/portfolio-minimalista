@@ -1,14 +1,21 @@
 <html>
   <head>
     <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css" />
-
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mobile.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+     <script
+      src="https://kit.fontawesome.com/b3f89f3272.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
@@ -78,74 +85,138 @@
       </div>
     </div>
 
-      <!--   PROJETOS  -->
-
+    <!--   PROJETOS  -->
 
     <div class="section-container">
-        <div class="section-content">
-            <h2 class="section-title">Projetos</h2>
+      <div class="section-content">
+        <h2 class="section-title">Projetos</h2>
 
-            <div class="projects-content">
-                <div class="project-item">
+        <div class="projects-content">
+          <div class="project-item">
+            <!--  IMAGEM  -->
 
-                    <!--  IMAGEM  -->
+            <div class="project-item-image project-item-1"></div>
 
-                      <div class="project-item-image project-item-1"></div>
-                    
-                    <!--  TEXTO TÍTULO E DESCRIÇÃO  -->
-                    <div class="project-text">
-                        <h3>E-comerce</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique officia ex inventore minima quos rerum eligendi ipsa voluptate quae nemo.</p>
+            <!--  TEXTO TÍTULO E DESCRIÇÃO  -->
+            <div class="project-text">
+              <h3>E-comerce</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique officia ex inventore minima quos rerum eligendi ipsa
+                voluptate quae nemo.
+              </p>
 
-                         <div class="project-links">
-                          <a href="https://github.com/filipe-tti/bewear-bootcamp" target="_blank">Repositório</a>
-                          <a href="https://bewear-bootcamp-three.vercel.app/" target="_blank">Link</a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="project-item item-invertido">
-
-                    <!--  IMAGEM  -->
-                    <div class="project-item-image project-item-2"></div>
-
-                    <!--  TEXTO TÍTULO E DESCRIÇÃO  -->
-                    <div class="project-text">
-                        <h3>Landing page</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique officia ex inventore minima quos rerum eligendi ipsa voluptate quae nemo.</p>
-
-                         <div class="project-links">
-                          <a href="https://github.com/filipe-tti/site-trico" target="_blank">Repositório</a>
-                          <a href="https://filipe-tti.github.io/site-trico/" target="_blank">Link</a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="project-item">
-
-                    <!--  IMAGEM  -->
-                    <div class="project-item-image project-item-1"></div>
-
-                    <!--  TEXTO TÍTULO E DESCRIÇÃO  -->
-                    <div class="project-text">
-                        <h3>Landing page</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique officia ex inventore minima quos rerum eligendi ipsa voluptate quae nemo.</p>
-                        <div class="project-links">
-                          <a href="">Repositório</a>
-                          <a href="">Link</a>
-                        </div>
-                    </div>
-
-                </div>
-
+              <div class="project-links">
+                <a
+                  href="https://github.com/filipe-tti/bewear-bootcamp"
+                  target="_blank"
+                  >Repositório</a
+                >
+                <a
+                  href="https://bewear-bootcamp-three.vercel.app/"
+                  target="_blank"
+                  >Link</a
+                >
+              </div>
             </div>
-           
+          </div>
+
+          <div class="project-item item-invertido">
+            <!--  IMAGEM  -->
+            <div class="project-item-image project-item-2"></div>
+
+            <!--  TEXTO TÍTULO E DESCRIÇÃO  -->
+            <div class="project-text">
+              <h3>Landing page</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique officia ex inventore minima quos rerum eligendi ipsa
+                voluptate quae nemo.
+              </p>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/filipe-tti/site-trico"
+                  target="_blank"
+                  >Repositório</a
+                >
+                <a
+                  href="https://filipe-tti.github.io/site-trico/"
+                  target="_blank"
+                  >Link</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <!--  IMAGEM  -->
+            <div class="project-item-image project-item-1"></div>
+
+            <!--  TEXTO TÍTULO E DESCRIÇÃO  -->
+            <div class="project-text">
+              <h3>Landing page</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique officia ex inventore minima quos rerum eligendi ipsa
+                voluptate quae nemo.
+              </p>
+              <div class="project-links">
+                <a href="">Repositório</a>
+                <a href="">Link</a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
+    <div class="section-container">
+      <div class="section-content">
+        <h2 class="section-title">Entre em contato</h2>
 
+        <form class="contact-form">
+          <input
+            class="form-input"
+            type="text"
+            name="fullName"
+            id="fullName"
+            placeholder="Seu nome"
+          />
 
+          <input
+            class="form-input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Seu e-mail"
+          />
+
+          <textarea
+            name="message"
+            id="message"
+            rows="5"
+            placeholder="Sua mensagem"
+            class="form-input"
+          ></textarea>
+
+          <input class="form-button" type="submit" value="Enviar" />
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="social-items">
+          
+          
+          
+          
+          <a href=""><i class="fa-brands fa-instagram fa-xl"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin fa-xl"></i></a>
+          <a href="mailto:filipe18tti@gmail.com"><i class="fa-regular fa-envelope fa-xl"></i></a>
+          <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+        </div>
+        <p>Copyright 2025</p>
+    </div>
   </body>
 </html>
